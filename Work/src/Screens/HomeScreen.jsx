@@ -14,7 +14,7 @@ function HomeScreen() {
         navigate('/signupform');
     }
     return (
-        <div className={`bg-white opacity-70 mix-blend-luminosity rounded-3xl shadow-xl h-118 m-auto p-auto  ${isMobile ? ' w-3/4 mt-15': 'w-2/5 mt-40'}`}>             
+        <div className={`bg-white opacity-70 mix-blend-luminosity rounded-3xl shadow-xl h-118 m-auto p-auto  ${isMobile ? ' w-3/4 mt-15': 'w-2/4 mt-40'}`}>             
         {/* <div className={`absolute inset-0  bg-white-500 bg-opacity-90`}> */}
             <h1 className={`text-black-500  m-1 p-1 font-bold text-center  ${isMobile ? 'text-2xl': 'text-4xl'}`} >Welcome here ! </h1>
             <div className={`flex relative z-10 ${isMobile ? 'flex-col': 'flex-row'}`}>
